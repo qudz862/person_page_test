@@ -1,0 +1,207 @@
+{
+  "lastUpdated": "2026-06-30",
+  "owner": {
+    "name": "Your Name",
+    "title": "Ph.D. Student / Researcher / Assistant Professor",
+    "affiliation": "Institution Name, Department or Lab",
+    "location": "City, Country",
+    "profileImage": "assets/hero-academic.png",
+    "summary": "I study trustworthy machine learning, data-driven systems, and human-centered AI, with a focus on building reliable methods for real-world decision making.",
+    "links": [
+      {
+        "label": "Email",
+        "href": "mailto:you@example.com"
+      },
+      {
+        "label": "Google Scholar",
+        "href": "#"
+      },
+      {
+        "label": "GitHub",
+        "href": "#"
+      },
+      {
+        "label": "CV",
+        "href": "#"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "label": "Papers",
+      "value": "12+"
+    },
+    {
+      "label": "Projects",
+      "value": "6"
+    },
+    {
+      "label": "Courses",
+      "value": "4"
+    },
+    {
+      "label": "Talks",
+      "value": "10+"
+    }
+  ],
+  "about": {
+    "title": "Biography",
+    "intro": "This paragraph can briefly describe your research agenda, methods, collaborators, and current role. Keep it direct and specific: what problems you work on, how you approach them, and how visitors can connect with you.",
+    "interests": [
+      "Trustworthy AI",
+      "Machine Learning",
+      "Data Science",
+      "Human-AI Interaction",
+      "Explainability",
+      "Open Source"
+    ]
+  },
+  "education": [
+    {
+      "period": "2021 - 2025",
+      "title": "Ph.D. in Computer Science",
+      "organization": "University Name, School of Computer Science",
+      "description": "Advisor: Professor Name. Research area: trustworthy machine learning and data-driven decision making."
+    },
+    {
+      "period": "2017 - 2021",
+      "title": "B.Eng. in Software Engineering",
+      "organization": "University Name",
+      "description": "Selected coursework: algorithms, database systems, machine learning, and distributed systems."
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 - Present",
+      "title": "Researcher / Postdoctoral Fellow / Assistant Professor",
+      "organization": "Institution Name, Lab Name",
+      "description": "Conducting independent research, mentoring students, and developing publications, open-source tools, and applied systems."
+    },
+    {
+      "period": "2023 - 2024",
+      "title": "Visiting Student / Research Intern",
+      "organization": "Collaborating Institution or Research Lab",
+      "description": "Worked on model design, experimental evaluation, and paper writing in a cross-institution research project."
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "A Concise Title for Your Selected Paper",
+      "authors": "Your Name, Collaborator A, Collaborator B",
+      "venue": "Conference or Journal Name",
+      "description": "One sentence summarizing the problem, method, or main contribution.",
+      "selected": true,
+      "tags": [
+        "Machine Learning",
+        "Trustworthy AI"
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "href": "#"
+        },
+        {
+          "label": "Code",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Another Publication Title Goes Here",
+      "authors": "Collaborator A, Your Name, Collaborator C",
+      "venue": "Conference or Journal Name",
+      "description": "One sentence explaining the main finding or application value.",
+      "selected": false,
+      "tags": [
+        "Data Science"
+      ],
+      "links": [
+        {
+          "label": "DOI",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "period": "2025 - Present",
+      "title": "Explainable Machine Learning Toolkit",
+      "description": "A lightweight research and teaching toolkit for model diagnostics, reproducibility, and visual analysis.",
+      "tags": [
+        "Open Source",
+        "Python",
+        "Visualization"
+      ],
+      "links": [
+        {
+          "label": "Repository",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "period": "2024",
+      "title": "Academic Data Analytics Platform",
+      "description": "A platform for analyzing publications, citations, collaboration networks, and research project progress.",
+      "tags": [
+        "Data Pipeline",
+        "Dashboard"
+      ],
+      "links": [
+        {
+          "label": "Demo",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "period": "2023",
+      "title": "Model Evaluation in Real-World Settings",
+      "description": "An evaluation workflow for studying model behavior under distribution shifts and noisy inputs.",
+      "tags": [
+        "Evaluation",
+        "Benchmark"
+      ],
+      "links": []
+    }
+  ],
+  "courses": [
+    {
+      "period": "Spring 2026",
+      "title": "Introduction to Machine Learning",
+      "meta": "Instructor / Teaching Assistant, undergraduate course"
+    },
+    {
+      "period": "Fall 2025",
+      "title": "Data Science Practice",
+      "meta": "Course design, graduate course"
+    }
+  ],
+  "talks": [
+    {
+      "year": "2026",
+      "title": "Trustworthy Machine Learning in Practice",
+      "meta": "Invited talk, Institution or Conference Name"
+    },
+    {
+      "year": "2025",
+      "title": "From Data to Reliable Decisions",
+      "meta": "Research seminar, City"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2026",
+      "title": "Best Dissertation / Best Paper / Fellowship Name",
+      "organization": "Awarding Organization"
+    },
+    {
+      "year": "2025",
+      "title": "Outstanding Research Award",
+      "organization": "Awarding Organization"
+    }
+  ]
+}

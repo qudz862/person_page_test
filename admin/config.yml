@@ -1,0 +1,156 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://dezhan.tech"
+display_url: "https://dezhan.tech"
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "homepage"
+        label: "Homepage Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Last Updated"
+            name: "lastUpdated"
+            widget: "string"
+            hint: "Use ISO format, for example 2026-06-30."
+
+          - label: "Owner"
+            name: "owner"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Affiliation", name: "affiliation", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Profile Image", name: "profileImage", widget: "image", required: false }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "href", widget: "string" }
+
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Value", name: "value", widget: "string" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+              - { label: "Biography", name: "intro", widget: "text" }
+              - label: "Research Interests"
+                name: "interests"
+                widget: "list"
+                field: { label: "Interest", name: "interest", widget: "string" }
+
+          - label: "Education"
+            name: "education"
+            widget: "list"
+            summary: "{{fields.period}} - {{fields.title}}"
+            fields:
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            summary: "{{fields.period}} - {{fields.title}}"
+            fields:
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            summary: "{{fields.year}} - {{fields.title}}"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Selected", name: "selected", widget: "boolean", default: false, required: false }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "href", widget: "string" }
+
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.period}} - {{fields.title}}"
+            fields:
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "href", widget: "string" }
+
+          - label: "Courses"
+            name: "courses"
+            widget: "list"
+            summary: "{{fields.period}} - {{fields.title}}"
+            fields:
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Details", name: "meta", widget: "string", required: false }
+
+          - label: "Talks"
+            name: "talks"
+            widget: "list"
+            summary: "{{fields.year}} - {{fields.title}}"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Details", name: "meta", widget: "string", required: false }
+
+          - label: "Honors and Awards"
+            name: "awards"
+            widget: "list"
+            summary: "{{fields.year}} - {{fields.title}}"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string", required: false }

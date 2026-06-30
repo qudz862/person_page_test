@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name | Academic Homepage</title>
+    <meta
+      name="description"
+      content="Academic homepage with biography, education, experience, publications, projects, teaching, talks, and honors."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preload" as="image" href="assets/hero-academic.png" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Back to top" data-owner-short-name>Your Name</a>
+
+        <nav class="main-nav" data-nav aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#talks">Talks</a>
+          <a href="#awards">Honors</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="site-main" id="top">
+      <section class="intro" id="about" aria-labelledby="page-title">
+        <aside class="profile">
+          <img class="profile-photo" src="assets/hero-academic.png" alt="" data-profile-image />
+          <h1 id="page-title" data-owner-name>Your Name</h1>
+          <p class="profile-title" data-owner-title>Position or Role</p>
+          <p class="profile-affiliation" data-owner-affiliation>Institution / Department</p>
+          <div class="profile-links" data-owner-links></div>
+          <dl class="profile-stats" data-stats></dl>
+        </aside>
+
+        <article class="bio">
+          <p class="eyebrow">About</p>
+          <h2 data-about-title>Biography</h2>
+          <p class="lead" data-owner-summary>
+            A brief research-focused introduction goes here.
+          </p>
+          <p data-about-intro></p>
+          <div class="interest-list" data-interests></div>
+        </article>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="publications-title">Publications</h2>
+        </div>
+        <div class="publication-list" data-section="publications"></div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <div class="project-list" data-section="projects"></div>
+      </section>
+
+      <section class="section two-column" aria-label="Experience and education">
+        <div id="experience">
+          <div class="section-heading compact">
+            <p class="eyebrow">Appointments</p>
+            <h2>Experience</h2>
+          </div>
+          <div class="timeline" data-section="experience"></div>
+        </div>
+
+        <div id="education">
+          <div class="section-heading compact">
+            <p class="eyebrow">Training</p>
+            <h2>Education</h2>
+          </div>
+          <div class="timeline" data-section="education"></div>
+        </div>
+      </section>
+
+      <section class="section two-column" aria-label="Teaching and talks">
+        <div id="teaching">
+          <div class="section-heading compact">
+            <p class="eyebrow">Teaching</p>
+            <h2>Courses</h2>
+          </div>
+          <div class="compact-list" data-section="courses"></div>
+        </div>
+
+        <div id="talks">
+          <div class="section-heading compact">
+            <p class="eyebrow">Speaking</p>
+            <h2>Talks</h2>
+          </div>
+          <div class="compact-list" data-section="talks"></div>
+        </div>
+      </section>
+
+      <section class="section" id="awards" aria-labelledby="awards-title">
+        <div class="section-heading">
+          <p class="eyebrow">Recognition</p>
+          <h2 id="awards-title">Honors and Awards</h2>
+        </div>
+        <div class="award-list" data-section="awards"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span><strong data-footer-name>Your Name</strong>, <span data-footer-affiliation>Institution / Department</span></span>
+      <span data-footer-updated>Last updated: 2026-06-30</span>
+    </footer>
+  </body>
+</html>
