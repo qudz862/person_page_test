@@ -1,87 +1,15 @@
 {
   "lastUpdated": "2026-06-30",
-  "owner": {
-    "name": "Your Name",
-    "title": "Ph.D. Student / Researcher / Assistant Professor",
-    "affiliation": "Institution Name, Department or Lab",
-    "location": "City, Country",
-    "profileImage": "assets/hero-academic.png",
-    "summary": "I study trustworthy machine learning, data-driven systems, and human-centered AI, with a focus on building reliable methods for real-world decision making.",
-    "links": [
-      {
-        "label": "Email",
-        "href": "mailto:you@example.com"
-      },
-      {
-        "label": "Google Scholar",
-        "href": "#"
-      },
-      {
-        "label": "GitHub",
-        "href": "#"
-      },
-      {
-        "label": "CV",
-        "href": "#"
-      }
-    ]
-  },
-  "stats": [
+  "talks": [
     {
-      "label": "Papers",
-      "value": "12+"
+      "year": "2026",
+      "title": "Trustworthy Machine Learning in Practice",
+      "meta": "Invited talk, Institution or Conference Name"
     },
     {
-      "label": "Projects",
-      "value": "6"
-    },
-    {
-      "label": "Courses",
-      "value": "4"
-    },
-    {
-      "label": "Talks",
-      "value": "10+"
-    }
-  ],
-  "about": {
-    "title": "Biography",
-    "intro": "This paragraph can briefly describe your research agenda, methods, collaborators, and current role. Keep it direct and specific: what problems you work on, how you approach them, and how visitors can connect with you.",
-    "interests": [
-      "Trustworthy AI",
-      "Machine Learning",
-      "Data Science",
-      "Human-AI Interaction",
-      "Explainability",
-      "Open Source"
-    ]
-  },
-  "education": [
-    {
-      "period": "2021 - 2025",
-      "title": "Ph.D. in Computer Science",
-      "organization": "University Name, School of Computer Science",
-      "description": "Advisor: Professor Name. Research area: trustworthy machine learning and data-driven decision making."
-    },
-    {
-      "period": "2017 - 2021",
-      "title": "B.Eng. in Software Engineering",
-      "organization": "University Name",
-      "description": "Selected coursework: algorithms, database systems, machine learning, and distributed systems."
-    }
-  ],
-  "experience": [
-    {
-      "period": "2025 - Present",
-      "title": "Researcher / Postdoctoral Fellow / Assistant Professor",
-      "organization": "Institution Name, Lab Name",
-      "description": "Conducting independent research, mentoring students, and developing publications, open-source tools, and applied systems."
-    },
-    {
-      "period": "2023 - 2024",
-      "title": "Visiting Student / Research Intern",
-      "organization": "Collaborating Institution or Research Lab",
-      "description": "Worked on model design, experimental evaluation, and paper writing in a cross-institution research project."
+      "year": "2025",
+      "title": "From Data to Reliable Decisions",
+      "meta": "Research seminar, City"
     }
   ],
   "publications": [
@@ -123,6 +51,96 @@
           "href": "#"
         }
       ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2021 - 2025",
+      "title": "Ph.D. in Computer Science",
+      "organization": "University Name, School of Computer Science",
+      "description": "Advisor: Professor Name. Research area: trustworthy machine learning and data-driven decision making."
+    },
+    {
+      "period": "2017 - 2021",
+      "title": "B.Eng. in Software Engineering",
+      "organization": "University Name",
+      "description": "Selected coursework: algorithms, database systems, machine learning, and distributed systems."
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 - Present",
+      "title": "Researcher / Postdoctoral Fellow / Assistant Professor",
+      "organization": "Institution Name, Lab Name",
+      "description": "Conducting independent research, mentoring students, and developing publications, open-source tools, and applied systems."
+    },
+    {
+      "period": "2023 - 2024",
+      "title": "Visiting Student / Research Intern",
+      "organization": "Collaborating Institution or Research Lab",
+      "description": "Worked on model design, experimental evaluation, and paper writing in a cross-institution research project."
+    }
+  ],
+  "about": {
+    "title": "Biography",
+    "intro": "This paragraph can briefly describe your research agenda, methods, collaborators, and current role. Keep it direct and specific: what problems you work on, how you approach them, and how visitors can connect with you.",
+    "interests": [
+      "Trustworthy AI",
+      "Machine Learning",
+      "Data Science",
+      "Human-AI Interaction",
+      "Explainability",
+      "Open Source"
+    ]
+  },
+  "owner": {
+    "name": "Dezhan Qu",
+    "title": "Ph.D. Student / Researcher / Assistant Professor",
+    "affiliation": "Institution Name, Department or Lab",
+    "location": "City, Country",
+    "profileImage": "assets/hero-academic.png",
+    "summary": "I study trustworthy machine learning, data-driven systems, and human-centered AI, with a focus on building reliable methods for real-world decision making.",
+    "links": [
+      {
+        "label": "Email",
+        "href": "mailto:you@example.com"
+      },
+      {
+        "label": "Google Scholar",
+        "href": "#"
+      },
+      {
+        "label": "GitHub",
+        "href": "#"
+      },
+      {
+        "label": "CV",
+        "href": "#"
+      }
+    ]
+  },
+  "awards": [
+    {
+      "year": "2026",
+      "title": "Best Dissertation / Best Paper / Fellowship Name",
+      "organization": "Awarding Organization"
+    },
+    {
+      "year": "2025",
+      "title": "Outstanding Research Award",
+      "organization": "Awarding Organization"
+    }
+  ],
+  "courses": [
+    {
+      "period": "Spring 2026",
+      "title": "Introduction to Machine Learning",
+      "meta": "Instructor / Teaching Assistant, undergraduate course"
+    },
+    {
+      "period": "Fall 2025",
+      "title": "Data Science Practice",
+      "meta": "Course design, graduate course"
     }
   ],
   "projects": [
@@ -168,40 +186,22 @@
       "links": []
     }
   ],
-  "courses": [
+  "stats": [
     {
-      "period": "Spring 2026",
-      "title": "Introduction to Machine Learning",
-      "meta": "Instructor / Teaching Assistant, undergraduate course"
+      "label": "Papers",
+      "value": "12+"
     },
     {
-      "period": "Fall 2025",
-      "title": "Data Science Practice",
-      "meta": "Course design, graduate course"
-    }
-  ],
-  "talks": [
-    {
-      "year": "2026",
-      "title": "Trustworthy Machine Learning in Practice",
-      "meta": "Invited talk, Institution or Conference Name"
+      "label": "Projects",
+      "value": "6"
     },
     {
-      "year": "2025",
-      "title": "From Data to Reliable Decisions",
-      "meta": "Research seminar, City"
-    }
-  ],
-  "awards": [
-    {
-      "year": "2026",
-      "title": "Best Dissertation / Best Paper / Fellowship Name",
-      "organization": "Awarding Organization"
+      "label": "Courses",
+      "value": "4"
     },
     {
-      "year": "2025",
-      "title": "Outstanding Research Award",
-      "organization": "Awarding Organization"
+      "label": "Talks",
+      "value": "10+"
     }
   ]
 }
