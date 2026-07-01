@@ -11,6 +11,7 @@
     <meta name="theme-color" content="#ffffff" />
     <link rel="preload" as="image" href="assets/hero-academic.png" />
     <link rel="stylesheet" href="assets/styles.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="assets/app.js" defer></script>
   </head>
   <body>
@@ -123,5 +124,16 @@
       <span><strong data-footer-name>Your Name</strong>, <span data-footer-affiliation>Institution / Department</span></span>
       <span data-footer-updated>Last updated: 2026-06-30</span>
     </footer>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", function (user) {
+          if (!user) {
+            window.netlifyIdentity.on("login", function () {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

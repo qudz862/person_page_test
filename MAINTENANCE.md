@@ -12,6 +12,18 @@ https://dezhan.tech/admin/
 
 Log in with the email address invited by the site maintainer.
 
+If an invitation email opens the homepage with a URL like:
+
+```text
+https://dezhan.tech/#invite_token=...
+```
+
+set the password in the prompt that appears. After login, the site redirects to:
+
+```text
+https://dezhan.tech/admin/
+```
+
 ## Updating Content
 
 Open:
